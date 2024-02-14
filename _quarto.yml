@@ -1,14 +1,19 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
-  title: "WIP_Quarto_delete"
+  title: "Reproducible research"
+  page-footer: "This page was built with ❤️, [R](https://cran.r-project.org) and [Quarto](https://quarto.org/) by REVELO"
   navbar:
+    background: "#447099"
+    logo: "materials/images/revelo.png"
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "Home"
+      - materials/about.qmd
 
 format:
   html:
