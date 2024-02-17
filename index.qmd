@@ -1,11 +1,100 @@
 ---
-title: "WIP_Quarto_delete"
+title: "Ricerca ripeoducibile con R"
+author: "Marco Chiapello"
+format: html
+editor_options: 
+  chunk_output_type: inline
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-This is a Quarto website.
+![](materials/images/quarto.jpeg)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Location
+
+
+### Programma del corso
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Primo giorno
 
 ```{r}
-1 + 1
+#| echo: false
+#| message: false
+#| warning: false
+
+library(gt)
+library(gtExtras)
+library(tidyverse)
+
+tibble(Orario = c("09:30", "09:45", "10:45", "11:00", "12:30",
+                  "13:30", "14:45", "15:00", "16:00"),
+       Tema = c("[Introduzione al corso](materials/intro.qmd)", "[Ricerca Riproducibile](https://phd-toolbox-course.github.io/2022_PhD_Toolbox_course/M4_RicercaRiproducibile.html#1)", 
+                "Pausa", "[Quarto](materials/qi.qmd)",
+                "Pranzo", "[Opzioni avanzate](materials/about.qmd)", "Pausa", 
+                "[Hands-on project](materials/about.qmd)", "Fine giornata")) |> 
+  mutate(Tema = map(Tema, gt::md)) |> 
+  gt() |> 
+  gt_theme_pff() |>
+  tab_style(
+    style = list(
+      cell_borders(
+        sides = "bottom",
+        color = "black",
+        weight = px(3) # Increase the line weight under the 4th row
+      )
+    ),
+    locations = cells_body(
+      rows = 4:5, # Target the row under which the line's width is to be increased
+      columns = everything()
+    )
+  ) |> 
+ cols_align(
+   align = "left",
+   columns = vars(Tema) # Align text to the left in the "Tema" column
+  )
 ```
+:::
+
+::: {.column width="50%"}
+#### Secondo giorno
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+
+tibble(Orario = c("09:30", "10:45", "11:00", "12:30",
+                  "13:30", "14:45", "15:00", "16:00"),
+       Tema = c("[Presentazioni](materials/about.qmd)", 
+                "Pausa", "[Hands-on project](materials/about.qmd)",
+                "Pranzo", "[Capstone project](materials/about.qmd)", "Pausa", 
+                "[Capstone project](materials/about.qmd)", "Fine giornata")) |> 
+  mutate(Tema = map(Tema, gt::md)) |> 
+  gt() |> 
+  gt_theme_pff() |>
+  tab_style(
+    style = list(
+      cell_borders(
+        sides = "bottom",
+        color = "black",
+        weight = px(3) # Increase the line weight under the 4th row
+      )
+    ),
+    locations = cells_body(
+      rows = 4:5, # Target the row under which the line's width is to be increased
+      columns = everything()
+    )
+  ) |> 
+ cols_align(
+   align = "left",
+   columns = vars(Tema) # Align text to the left in the "Tema" column
+  )  
+```
+:::
+::::
+
+

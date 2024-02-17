@@ -1,0 +1,20 @@
+---
+title: "Quarto"
+---
+
+### Obiettivi formativi:
+1. Cos'è Quarto
+1. Cosa si può fare con Quarto:
+    - Dynamic Documents
+    - Beautiful Publications
+    - Scientific Markdown
+    - Authoring Tools
+    - Interactivity
+    - Websites and Books
+1. Installare Quaro
+1. Creare semplici documenti:
+    - html
+    - pdf
+    - word
+    - Typst
+1. Come aggiungere il codice

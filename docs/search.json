@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "WIP_Quarto_delete",
+    "title": "Ricerca ripeoducibile con R",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Location\n\n\nProgramma del corso\n\n\n\nPrimo giorno\n\n\n\n\n\n\n\n\nOrario\nTema\n\n\n\n\n09:30\nIntroduzione al corso\n\n\n09:45\nRicerca Riproducibile\n\n\n10:45\nPausa\n\n\n11:00\nQuarto\n\n\n12:30\nPranzo\n\n\n13:30\nOpzioni avanzate\n\n\n14:45\nPausa\n\n\n15:00\nHands-on project\n\n\n16:00\nFine giornata\n\n\n\n\n\n\n\n\n\n\nSecondo giorno\n\n\n\n\n\n\n\n\nOrario\nTema\n\n\n\n\n09:30\nPresentazioni\n\n\n10:45\nPausa\n\n\n11:00\nHands-on project\n\n\n12:30\nPranzo\n\n\n13:30\nCapstone project\n\n\n14:45\nPausa\n\n\n15:00\nCapstone project\n\n\n16:00\nFine giornata"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,82 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "materials/qi.html",
+    "href": "materials/qi.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Obiettivi formativi:\n\nCos’è Quarto\nCosa si può fare con Quarto:\n\nDynamic Documents\nBeautiful Publications\nScientific Markdown\nAuthoring Tools\nInteractivity\nWebsites and Books\n\nInstallare Quaro\nCreare semplici documenti:\n\nhtml\npdf\nword\nTypst\n\nCome aggiungere il codice"
+  },
+  {
+    "objectID": "materials/intro.html#TitleSlide",
+    "href": "materials/intro.html#TitleSlide",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Introduzione al Corso\nIntroduzione all’analisi RNASeq in R\nDipartimento di Biomedicina e Prevenzione\n \nMarco Chiapello, Revelo Datalab\n2023-03-31"
+  },
+  {
+    "objectID": "materials/intro.html#section-1",
+    "href": "materials/intro.html#section-1",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.\nBy participating in this course, participants accept the Code of Conduct.\nAny form of behaviour to exclude, intimidate, or cause discomfort is a violation of the Code of Conduct. In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all platforms and events:\n\n\nUse welcoming and inclusive language\n\n\n\n\nBe respectful of different viewpoints and experiences\n\n\n\n\nGracefully accept constructive criticism\n\n\n\n\nFocus on what is best for the community\n\n\n\n\nShow courtesy and respect towards other community members"
+  },
+  {
+    "objectID": "materials/intro.html#section-3",
+    "href": "materials/intro.html#section-3",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Chi sei?\n\n\n\n Cosa hai studiato?\n\n\n\n Quali sono i tuoi obiettivi?\n\n\n\n Quali sono le aspettative per il corso?\n\n\n\nMarco - datemi del tu - Agilent - 2 figli, una quasi moglie - Pallavolo\nLaurea - Dottorato - Bioinformatica\nPortare un po di open sourse nel mondo company\nChe andiate a casa con qualche idea"
+  },
+  {
+    "objectID": "materials/intro.html#section-5",
+    "href": "materials/intro.html#section-5",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Website\n\n\n\n\n\n\n\n\nhttp://bit.ly/3ZcDcj9"
+  },
+  {
+    "objectID": "materials/intro.html#section-6",
+    "href": "materials/intro.html#section-6",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Agenda\n\n\nPrimo Giorno Teoria\n\n\nOrari\n9:30 : Introduzione al Corso\n10:00: Riepilogo R\n10:45: Pausa\n11:00: Introduzione all’RNASeq\n12:30: Pausa pranzo\n13:30: Ricerca Riproducibile\n14:45: Pausa\n15:00: Software and code\n16:30: Considerazioni finali\n\n\nSecondo Giorno Pratica\n\n\nOrari\n9:30 : Live Code (QC and quantification)\n10:45: Pausa\n11:00: Live Code (DGE)\n12:30: Pausa pranzo\n13:30: Live Code (DGE)\n14:45: Pausa\n15:00: Capstone exercise\n16:30: Considerazioni finali"
+  },
+  {
+    "objectID": "materials/intro.html#section-8",
+    "href": "materials/intro.html#section-8",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Approach\n\n\nOpen source tools\nSupporting community\nYour laptop is everything you need\nConstant feedback\nAsk questions"
+  },
+  {
+    "objectID": "materials/intro.html#section-9",
+    "href": "materials/intro.html#section-9",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Feedbacks\n\nImmediati\n\nSticky notes\n\nFormative assessment\n\nVeloci questionari o esercizi\n\nAlla fine di ogni modulo\n\nSticky notes"
+  },
+  {
+    "objectID": "materials/intro.html#section-10",
+    "href": "materials/intro.html#section-10",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Domande\n \n\n\n\n\n\n\n\nDon Lorenzo Milani\n\n\nOgni parola che non capisci oggi è un calcio in culo domani"
+  },
+  {
+    "objectID": "materials/intro.html#section-11",
+    "href": "materials/intro.html#section-11",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Strumenti\n\nWebsite\nSlack\n\nStrumento di comunicazione\n\n\n \nEntrambi rimarranno online per sempre"
+  },
+  {
+    "objectID": "materials/intro.html#section-13",
+    "href": "materials/intro.html#section-13",
+    "title": "Reproducible research",
+    "section": "",
+    "text": "Goals\n\n\n\n\nBecome a better data scientist\n\n\n\n\n\n\nLeanr best practices for working with R/Bioconductor\n\n\n\n\n\n\nUnderstand how to do RNASeq bulk data analysis\n\n\n\n\n\n\nDevelop a lightweight and reusable RNASeq pipeline"
   }
 ]

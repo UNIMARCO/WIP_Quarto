@@ -10,10 +10,19 @@ website:
   navbar:
     background: "#447099"
     logo: "materials/images/revelo.png"
+    search: true
     left:
       - href: index.qmd
         text: "Home"
       - materials/about.qmd
+      - text: "Lezioni"
+        menu: 
+          - href: materials/intro.qmd
+            text: "Modulo I: Introduzione al corso"
+          - href: https://phd-toolbox-course.github.io/2022_PhD_Toolbox_course/M4_RicercaRiproducibile.html#1
+            text: "Modulo II: Ricerca riproducibile"
+          - href: materials/qi.qmd
+            text: "Modulo III: Introduzione a Quarto"
 
 format:
   html:
